@@ -54,8 +54,4 @@ public class Account {
     public void updateBalance(Transaction transaction) {
         this.balance += transaction.getAmount();
     }
-
-    public Long getCustomerId() {
-        return this.customerID;
-    }
 }
